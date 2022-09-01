@@ -1,0 +1,20 @@
+run_name: 'exp0'
+ckpt_name:
+instrument: 'american put'
+superhedge: True
+early_exercise: False
+
+N: 10
+X: 1
+T: 1
+K: 1.0
+sigma: 0.2
+data_mode: 'normal steps'
+
+m: 1
+d: 3
+n: 32
+
+epochs: 50
+batch_size: 1000 #10000
+save_epoch: 5
